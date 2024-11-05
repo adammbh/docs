@@ -25,12 +25,6 @@
     "name": "Website",
     "url": "https://evict.cc"
   },
-  "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
   "anchors": [
     {
       "name": "Status",
@@ -48,6 +42,12 @@
       "group": "Get Started",
       "pages": [
         "introduction"
+      ]
+    },
+    {
+      "group": "Configuration",
+      "pages": [
+        "Welcome & Leave"
       ]
     }
   ],
