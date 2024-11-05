@@ -47,7 +47,8 @@
     {
       "group": "Configuration",
       "pages": [
-        "Welcome & Leave"
+        "welcome",
+        "antinuke"
       ]
     }
   ],
