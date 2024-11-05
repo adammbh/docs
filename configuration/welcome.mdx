@@ -1,4 +1,61 @@
 ---
 title: Welcome
 icon: door-open
+description: "Setting up the channels and message for welcome events."
 ---
+
+<CardGroup cols={2}>
+  <Card title="Welcome setup" icon="shield" href="#creating-a-welcome-channel">
+    Create, edit and setup your welcome message & channels and truly customise
+    it to your needs making it unique to yourself.
+  </Card>
+  <Card
+    title="Leave Setup"
+    icon="arrows-to-circle"
+    href="/configuration/leave"
+  >
+    Create, edit and setup your leave message & channels and truly customise it
+    to your needs making it unique to yourself.
+  </Card>
+</CardGroup>
+
+<Tip>
+  When setting up help messages, you can use `embedsetup` to easily generate
+  scripts/codes that are compatible with greed.
+</Tip>
+
+## Creating a welcome channel
+
+
+<Steps>
+  <Step title="Head over to your Discord Server">
+    Click on the Discord Server that you would like to setup welcome for using
+    greed.
+  </Step>
+  <Step title="Create the channel">
+    Setup permissions for the channel with the desired name, for this example we
+    will be using `#welcome`
+  </Step>
+</Steps>
+
+## Creating an embed and setting the welcome channel
+
+<Steps>
+  <Step title="Creating the welcome embed">
+    Run the `,embedsetup` command while to create the welcome embed which you
+    can use variables with, for more information regarding variables:
+    [/configuration/variables](/configuration/variables)
+  </Step>
+  <Step title="Setup the welcome channel">
+    Run the `,welcome add` command which will give you further information, for this
+    example we'll run: `,welcome add #welcome {title: Welcome!} {author: {user.name}}`
+  </Step>
+</Steps>
+
+<Frame caption="Creating the welcome embed and setting it up">
+  <img src="/images/greetings/welcome/wqaq7W.png" />
+</Frame>
+<br />
+<Frame caption="Testing the functionality of the welcome embed">
+  <img src="/images/greetings/welcome/IZZaqy.png" />
+</Frame>
