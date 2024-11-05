@@ -51,13 +51,20 @@
     {
       "group": "Configuration",
       "pages": [
-        "/configuration/welcome"
-      ]
-    },
-    {
-      "group": "Security",
-      "pages": [
-        "/security/antinuke"
+        {
+          "group": "Welcome & Leave",
+          "pages": [
+            "configuration/welcome",
+            "configuration/leave"
+          ],
+          "icon": "bell"
+        },
+        {
+          "group": "Security",
+          "pages": [
+            "/security/antinuke"
+          ]
+        }
       ]
     }
   ],
