@@ -2,10 +2,10 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "Evict",
   "logo": {
-    "dark": "",
-    "light": ""
+    "dark": "/favicon.svg",
+    "light": "/favicon.svg"
   },
-  "favicon": "",
+  "favicon": "/favicon.svg",
   "colors": {
     "primary": "#CCCCFF",
     "light": "#CCCCFF",
