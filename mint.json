@@ -5,7 +5,11 @@
     "dark": "/favicon.svg",
     "light": "/favicon.svg"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "favicon.svg",
+  "feedback": {
+    "thumbsRating": true,
+    "suggestEdit": true
+  },
   "colors": {
     "primary": "#CCCCFF",
     "light": "#CCCCFF",
